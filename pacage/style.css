@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgba(250, 29, 139, 0.815), rgb(239, 250, 85));
+}
+.player
+{
+    position: relative;
+    width: 360px;
+    background: whitesmoke;
+    box-shadow: 0 50px 60px rgba(0, 0, 0, 0.7);
+}
+.player .ImgFx{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+.player .ImgFx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.player audio
+{
+    width: 100%;
+    outline: none;
+}
